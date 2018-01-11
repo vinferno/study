@@ -56,24 +56,31 @@
   "defaults": {
     "styleExt": "scss",
     "class": {
+      "flat": false,
       "spec": false
     },
     "component": {
+      "flat": false,
       "spec": false
     },
     "directive": {
+      "flat": false,
       "spec": false
     },
     "guard": {
+      "flat": false,
       "spec": false
     },
     "module": {
+      "flat": false,
       "spec": false
     },
     "pipe": {
+      "flat": false,
       "spec": false
     },
     "service": {
+      "flat": false,
       "spec": false
     }
   }
