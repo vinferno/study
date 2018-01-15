@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+.theme1 {
+  .color1 {
+   background-color: black;
+    color: white;
+    font-size: larger;
+    a {color: white};
+    .active-link {
+      color: red;
+    }
+  }
+}
+
+
+body {
+  font-size: larger;
+  margin: 0;
+  padding: 0;
+}
+
+
+.page-padding {
+  padding: 12px;
+}

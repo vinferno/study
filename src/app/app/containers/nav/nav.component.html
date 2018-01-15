@@ -1,0 +1,8 @@
+<div class="vf-nav color1 page-padding" >
+  <ng-container *ngFor="let route of appRoutes; let i = index;">
+    <a *ngIf="route.path !== '**'" [routerLink]="route.path" routerLinkActive="active-link">
+      {{route.path}}
+    </a>
+  </ng-container>
+
+</div>

@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { LandingComponent } from './app/views/landing/landing.component';
+import { FileStytemComponent } from './app/views/file-stytem/file-stytem.component';
+import { NavComponent } from './app/containers/nav/nav.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
   ],
   imports: [
     BrowserModule,
